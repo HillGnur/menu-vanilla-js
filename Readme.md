@@ -6,19 +6,15 @@
 
 Coloque os seguintes data-attributes em seu HTML element:
 
-`data-menu-active=""` 
-
-`data-opacity="0"`
-
-
+`<html data-menu-active="" data-opacity="0"></html>`
 
 Em seguida, você deve adicionar qual será sua lista a ser exibida, e definir ao menos dois botões para que ela seja aberta/fechada:
 
-`ul data-collapse="collapse-menu" data-menu-id="0" data-menu-active=""`
+`<ul data-collapse="collapse-menu" data-menu-id="0" data-menu-active=""></ul>`
 
-`button data-menu="open" data-menu-id="0"`
+`<button data-menu="open" data-menu-id="0"></button>`
 
-`button data-menu="close" data-menu-id="0"`
+`<button data-menu="close" data-menu-id="0"></button>`
 
 
 *A estilização em CSS fica a seu critério*
