@@ -1,4 +1,4 @@
-function menu(){
+(function(){
     //Declaração de variáveis
     var doc = document.documentElement;
     var openMenus = document.querySelectorAll("button[data-menu=open]");
@@ -38,4 +38,4 @@ function menu(){
             },600);
         };
     });
-}menu();
+})();
