@@ -7,22 +7,22 @@
     //Varrer o array de menus coletando suas id's e usando para as funções dos botões
     for(var i = 0; i < menus.length; i++){
         //Declaração da variável id para selecionar os menus corretamente
-        openMenus[i].onclick = function(){
+        openMenus[i].addEventListener("click", function(){
             var id = parseFloat(this.dataset.menuId);
             doc.setAttribute("data-menu-active", "active");
             menus[id].setAttribute("data-menu-active", "active");
             setTimeout(function(){
                 doc.setAttribute("data-opacity", "1"); 
             },50);
-        };
-        closeMenus[i].onclick = function(){
+        });
+        closeMenus[i].addEventListener("click", function(){
             var id = parseFloat(this.dataset.menuId);
             doc.setAttribute("data-opacity", "0");
             menus[id].setAttribute("data-menu-active", "");
             setTimeout(function(){
                 doc.setAttribute("data-menu-active", "");
             },600);
-        };
+        });
     };
     //Fechar qualquer/todos os menus ao clicar no document-overlay
     doc.addEventListener("click", function(event){
