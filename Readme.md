@@ -21,4 +21,5 @@ Em seguida, você deve adicionar qual será sua lista a ser exibida, e definir a
 
 *• Cada menu e seus respectivos items devem conter id's únicas, sugerimos que sigam com as id's como sequência em "0, 1, 2 ..."*
 
-[JSFiddle](https://jsfiddle.net/1mz9gjg2/)
+[JSFiddle](https://jsfiddle.net/1mz9gjg2/1/)
+<script async src="//jsfiddle.net/1mz9gjg2/1/embed/"></script>
